@@ -1,0 +1,78 @@
+    body{
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    h1{
+
+        font-size: 30px;
+    }
+    section{
+        height: 500px;
+        padding-bottom: 10px;
+    }
+    .myself img{
+        width: 80%;
+
+        
+    }
+    .name-highlight{
+        color: orange;
+    }
+    .myself{
+        width: 40%;
+        float: left;
+        margin-left: 7%;
+        margin-top: 2%;
+        padding-left: 2%; 
+    }
+    .banner{
+        background-image: url("img/top-banner.png");
+        background-repeat: no-repeat;
+
+    }
+    .link_button{
+        text-decoration: none;
+        background-image: linear-gradient(45deg, lightSalmon, Tomato);
+        padding: 5px 20px;
+        color: white;
+        border-radius: 5px;
+    font-weight: 700;
+
+    }
+
+    .dream_area{
+        background-image: url("img/dream-bg.png");
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .experience-area{
+        margin-bottom: 80px;
+
+        background-image: url("img/exp-bg.png");
+        background-repeat: no-repeat;
+        background-position: left;
+        
+    }
+    .experience-area h1{
+        margin-left: 100px;
+    }
+
+    .single_experience
+    {
+
+        box-shadow: 10px 10px 40px gray;
+        border-radius: 10px;
+        height: 55%;
+    }
+
+    #full_stack{
+        border-left: 7px solid;
+        border-image: linear-gradient(180deg, lightSalmon, Tomato);
+        border-image-slice: 1;
+    }
+    #wordpress{
+
+        border-left: 7px solid;
+        border-image: linear-gradient(180deg,blue ,cyan);
+        border-image-slice: 1;
+    }
